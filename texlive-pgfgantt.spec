@@ -1,3 +1,9 @@
+# revision 24273
+# category Package
+# catalog-ctan /graphics/pgf/contrib/pgfgantt
+# catalog-date 2011-10-12 17:03:26 +0200
+# catalog-license lppl1.3
+# catalog-version 2.0
 Name:		texlive-pgfgantt
 Version:	2.0
 Release:	1
@@ -45,6 +51,7 @@ elements.
 #- source
 %doc %{_texmfdistdir}/source/latex/pgfgantt/pgfgantt.dtx
 %doc %{_texmfdistdir}/source/latex/pgfgantt/pgfgantt.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ elements.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
