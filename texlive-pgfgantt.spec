@@ -1,12 +1,12 @@
-# revision 24572
+# revision 25204
 # category Package
 # catalog-ctan /graphics/pgf/contrib/pgfgantt
-# catalog-date 2011-11-10 20:12:45 +0100
+# catalog-date 2012-01-26 11:19:33 +0100
 # catalog-license lppl1.3
-# catalog-version 2.1
+# catalog-version 3.0
 Name:		texlive-pgfgantt
-Version:	2.1
-Release:	2
+Version:	3.0
+Release:	1
 Summary:	Draw Gantt charts with TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgfgantt
