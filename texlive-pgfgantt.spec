@@ -1,11 +1,11 @@
-# revision 25204
+# revision 31037
 # category Package
 # catalog-ctan /graphics/pgf/contrib/pgfgantt
-# catalog-date 2012-01-26 11:19:33 +0100
+# catalog-date 2013-06-04 20:25:12 +0200
 # catalog-license lppl1.3
-# catalog-version 3.0
+# catalog-version 4.0
 Name:		texlive-pgfgantt
-Version:	3.0
+Version:	4.0
 Release:	1
 Summary:	Draw Gantt charts with TikZ
 Group:		Publishing
@@ -51,25 +51,3 @@ elements.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.0-1
-+ Revision: 770236
-- Update to latest upstream package
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-2
-+ Revision: 754816
-- Rebuild to reduce used resources
-
-* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
-+ Revision: 732607
-- texlive-pgfgantt
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0-1
-+ Revision: 719241
-- texlive-pgfgantt
-- texlive-pgfgantt
-- texlive-pgfgantt
-- texlive-pgfgantt
-
