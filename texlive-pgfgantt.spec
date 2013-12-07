@@ -6,7 +6,7 @@
 # catalog-version 4.0
 Name:		texlive-pgfgantt
 Version:	4.0
-Release:	4
+Release:	5
 Summary:	Draw Gantt charts with TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgfgantt
